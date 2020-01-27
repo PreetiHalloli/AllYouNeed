@@ -1,0 +1,28 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>CEO</th>
+        <th>Establish Year</th>
+        <th>Locations</th>
+        <th>Branches</th>
+        <th>Head-Quater</th>
+        <th>Employees</th>
+        <th>Domain</th>
+    </tr>
+    <tr *ngFor="let company of companies">
+        <td><a [routerLink]=[company.id]>{{company.name}}</a></td>
+        <td>{{company.ceo}}</td>
+        <td>{{company.yearOfEstablish}}</td>
+        <td>{{company.locations}}</td>
+        <td>{{company.branches}}</td>
+        <td>{{company.headquater}}</td>
+        <td>{{company.employees}}</td>
+        <td>{{company.domain}}</td>
+
+        <button (click)="deleteCompany(company.id)">Delete</button> &nbsp;
+        <button [routerLink]="['/edit', company.id]">Edit</button>
+
+    </tr>
+</table>
+
+<button [routerLink]="['/add']">Add Company</button>

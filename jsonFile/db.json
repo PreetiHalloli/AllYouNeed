@@ -1,0 +1,37 @@
+{
+  "Companies": [
+    {
+      "id": 1,
+      "name": "Delloite",
+      "ceo": "Punit Renjen",
+      "yearOfEstablish": 1990,
+      "locations": "New york, Banglore, mumbai",
+      "branches": 12,
+      "headquater": "US",
+      "employees": 53,
+      "domain": "IT"
+    },
+    {
+      "name": "Wipro",
+      "ceo": "Prem",
+      "yearOfEstablish": 1990,
+      "locations": "Pune, Banglore, mumbai",
+      "branches": 12,
+      "headquater": "India",
+      "employees": "53452",
+      "domain": "IT",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Mahindra",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": "Pune, Banglore, mumbai",
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": "Automation"
+    }
+  ]
+}

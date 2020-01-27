@@ -1,0 +1,21 @@
+<form [formGroup]="updateForm">
+    <label>Name: </label>
+    <input type="text" formControlName="name"><br><br>
+    <label>CEO: </label>
+    <input type="text" formControlName="ceo"><br><br>
+    <label>Establish Year: </label>
+    <input type="text" formControlName="yearOfEstablish"><br><br>
+    <label>Locations: </label>
+    <input type="text" formControlName="locations"><br><br>
+    <label>Branches: </label>
+    <input type="text" formControlName="branches"><br><br>
+    <label>Head-Quater: </label>
+    <input type="text" formControlName="headquater"><br><br>
+    <label>Employees: </label>
+    <input type="text" formControlName="employees"><br><br>
+    <label>Domain: </label>
+    <input type="text" formControlName="domain"><br><br>
+
+    <button (click)="updateCompany()" >Update</button> &nbsp;
+    <button>Cancel</button>
+</form>
