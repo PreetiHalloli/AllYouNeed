@@ -11,12 +11,15 @@ import { Router } from '@angular/router';
 export class AddCompanyComponent implements OnInit {
 
   addForm: FormGroup;
-
+  domain: string[];
+  locations:string[];
+  
   constructor(private service: CompanyService,
               private fb: FormBuilder,
               private router: Router) { }
 
   ngOnInit() {
+    this.domain = ['Retail', 'Banking', 'Financial', 'Health Care', 'Manufacturing']
     this.addForm = this.fb.group({
       name: [],
       ceo: [],

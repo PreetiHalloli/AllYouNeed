@@ -1,0 +1,24 @@
+#tableclass {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tableclass td, #tableclass th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tableclass tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #tableclass tr:hover {background-color: #ddd;}
+  
+  #tableclass th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: grey;
+    color: white;
+  }
+
+  /* google it like table layout css */

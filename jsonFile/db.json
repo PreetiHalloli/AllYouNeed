@@ -5,21 +5,37 @@
       "name": "Delloite",
       "ceo": "Punit Renjen",
       "yearOfEstablish": 1990,
-      "locations": "New york, Banglore, mumbai",
+      "locations": [
+        "New york",
+        "Banglore",
+        "mumbai"
+      ],
       "branches": 12,
       "headquater": "US",
       "employees": 53,
-      "domain": "IT"
+      "domain": [
+        "IT",
+        [
+          "Automation",
+          "IT"
+        ]
+      ]
     },
     {
       "name": "Wipro",
       "ceo": "Prem",
       "yearOfEstablish": 1990,
-      "locations": "Pune, Banglore, mumbai",
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
       "branches": 12,
       "headquater": "India",
       "employees": "53452",
-      "domain": "IT",
+      "domain": [
+        "IT"
+      ],
       "id": 2
     },
     {
@@ -27,11 +43,324 @@
       "name": "Mahindra",
       "ceo": "Mahindra",
       "yearOfEstablish": 1990,
-      "locations": "Pune, Banglore, mumbai",
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
       "branches": 12,
       "headquater": "India",
       "employees": 53,
-      "domain": "Automation"
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Accenture",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "TCS",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "TCL",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Amdocs",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "PTC",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cybage",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Capgemini",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Persistent",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "L&T",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "HSBC",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Mphasis",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Mindtree",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Cognizant",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Mahindra",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Honeywell",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "HP",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Harbinger",
+      "ceo": "Mahindra",
+      "yearOfEstablish": 1990,
+      "locations": [
+        "Pune",
+        "Banglore",
+        "mumbai"
+      ],
+      "branches": 12,
+      "headquater": "India",
+      "employees": 53,
+      "domain": [
+        "Automation",
+        "IT"
+      ]
     }
   ]
 }

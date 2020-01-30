@@ -7,7 +7,7 @@ export class Company{
     branches: number;
     headquater: string;
     employees: number;
-    domain: string;
+    domain: string[];
 
     constructor(){
         

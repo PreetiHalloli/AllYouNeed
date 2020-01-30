@@ -1,4 +1,6 @@
-<table>
+
+
+<table id="tableclass">
     <tr>
         <th>Name</th>
         <th>CEO</th>
@@ -8,8 +10,12 @@
         <th>Head-Quater</th>
         <th>Employees</th>
         <th>Domain</th>
+        <th>Actions</th>
     </tr>
-    <tr *ngFor="let company of companies">
+    <tr *ngFor="let company of companies | paginate: { id: 'listing_pagination',
+    itemsPerPage: 5,
+    currentPage: page,
+    totalItems: totalRec }">
         <td><a [routerLink]=[company.id]>{{company.name}}</a></td>
         <td>{{company.ceo}}</td>
         <td>{{company.yearOfEstablish}}</td>
@@ -18,11 +24,16 @@
         <td>{{company.headquater}}</td>
         <td>{{company.employees}}</td>
         <td>{{company.domain}}</td>
-
-        <button (click)="deleteCompany(company.id)">Delete</button> &nbsp;
-        <button [routerLink]="['/edit', company.id]">Edit</button>
-
+        <td>
+            <button (click)="deleteCompany(company.id)">Delete</button> &nbsp;
+            <button [routerLink]="['/edit', company.id]">Edit</button>
+        </td>
     </tr>
 </table>
+
+<div>
+    <pagination-controls  id="listing_pagination" maxSize="5" directionLinks="true" (pageChange)="page = $event"></pagination-controls>
+</div>
+
 
 <button [routerLink]="['/add']">Add Company</button>

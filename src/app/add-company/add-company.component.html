@@ -6,6 +6,15 @@
     <label>Establish Year: </label>
     <input type="text" formControlName="yearOfEstablish"><br><br>
     <label>Locations: </label>
+    <!-- <ng-select [items]="locations"
+                   bindLabel="locations"
+                   bindValue="id"
+                   [addTag]="addLocations"
+                   [multiple]="true"
+                   formControlName="locations"
+                   placeholder=""
+                   >
+        </ng-select> -->
     <input type="text" formControlName="locations"><br><br>
     <label>Branches: </label>
     <input type="text" formControlName="branches"><br><br>
@@ -13,9 +22,21 @@
     <input type="text" formControlName="headquater"><br><br>
     <label>Employees: </label>
     <input type="text" formControlName="employees"><br><br>
-    <label>Domain: </label>
-    <input type="text" formControlName="domain"><br><br>
-
+    <label>Domain: </label>    
+    <div>
+    <ng-select [items]="domain"
+                   [multiple]="true"
+                   formControlName="domain"
+                   placeholder="select">
+        </ng-select>
+    </div>
+    <!-- <input type="text" formControlName="domain"><br><br> -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <button >Save</button> &nbsp;
     <button>Cancel</button>
 </form>

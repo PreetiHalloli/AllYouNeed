@@ -10,6 +10,8 @@ import { Company } from '../company.model';
 export class CompanyListComponent implements OnInit {
 
   companies: Company[];
+  totalRecord: number;
+  page: number = 1;
 
   constructor(private service: CompanyService) { }
 
@@ -17,20 +19,17 @@ export class CompanyListComponent implements OnInit {
     this.publicgetAllCompanies();
   }
 
-  publicgetAllCompanies(){
+  publicgetAllCompanies() {
     this.service.getAllCompanies().subscribe(
-      (data)=>{ this.companies = data;
-    })
+      (data) => {
+        this.companies = data;
+        this.totalRecord = this.companies.length
+      })
   }
 
-  deleteCompany(id: number){
+  deleteCompany(id: number) {
     this.service.deleteCompany(id).subscribe(
       () => this.publicgetAllCompanies()
     )
   }
-
-
-
-
-
 }
